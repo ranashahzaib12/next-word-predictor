@@ -6,7 +6,7 @@ import pickle
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 
 # Load model
-model = tf.keras.models.load_model('next_word_lstm2.h5')
+model = tf.keras.models.load_model('next_word_lstm.keras')
 
 # Load tokenizer
 with open('tokenizer.pkl', 'rb') as f:
